@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,6 +14,17 @@
   }
 }
 </script>
+    <style>
+      /* Style native date picker for dark mode */
+      input[type="date"] {
+        color-scheme: dark;
+      }
+      /* Make the calendar icon visible on dark backgrounds in WebKit browsers */
+      input[type="date"]::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+        cursor: pointer;
+      }
+    </style>
 </head>
   <body class="bg-[#1A2A23]">
     <div id="root"></div>
