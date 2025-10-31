@@ -1,0 +1,5 @@
+{
+  "name": "New Task Creator",
+  "description": "A modern, sleek user interface for creating new tasks. Users can specify a title, an optional description, and a due date.",
+  "requestFramePermissions": []
+}
